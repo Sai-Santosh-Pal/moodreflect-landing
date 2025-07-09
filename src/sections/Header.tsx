@@ -21,7 +21,7 @@ export const Header = () => {
               <a href='#'>Product</a>
               <a href='#'>Reviews</a>
               <a href='#'>Survey</a>
-              <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight cursor-pointer'>
+              <button className='btn-primary'>
                 Contact Us
               </button>
               
