@@ -9,7 +9,12 @@ export const Product = () => {
         <p className="section-description w-3/4 text-center">Track your emotions, manage stress, and build healthier habits — all in one place.</p>
       </div>
       <div className="h-1/2 flex gap-20 flex-col md:flex-row gap-5 justify-between">
-        <Image alt="Mocup" src={Mockup} className="h-[300px] md:h-full w-auto scale-200 mt-[-50px] md:mt-[-120px] md:scale-150" />
+        <Image 
+          alt="Mockup" 
+          src={Mockup} 
+          className="h-[300px] md:h-[400px] w-auto object-contain scale-125 md:scale-150 lg:scale-175 -translate-y-12 md:-translate-y-24"
+          priority
+        />
         <div className="right md:ml-[-200px] mt-[-50px] md:mt-[-120px]">
           <div className="mt-5">
   <div className="title flex items-center gap-2">
