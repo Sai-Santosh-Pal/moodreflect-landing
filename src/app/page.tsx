@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Header } from "@/sections/Header";
 import { Hero } from "@/sections/Hero";
 import { Product } from "@/sections/Product";
