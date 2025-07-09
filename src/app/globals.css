@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -12,15 +15,33 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+} */
+
+*::selection {
+  background: #111111;
+  color: #ffffff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.section-title{
+  @apply text-4xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter;
+}
+
+.section-description{
+  @apply text-[22px] leading-[30px] tracking-tight;
+}
+
+.section-heading{
+  @apply max-w-[540px] mx-auto;
 }
