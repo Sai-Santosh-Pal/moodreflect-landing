@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="flex flex-col gap-10 items-center justify-center md:flex-row h-full w-full mt-5">
         <div className="left w-[50%] flex flex-col">
-            <p className="w-[fit-content] md:ml-[25%] md:text-left text-center section-title md:text-6xl text-6xl text-color bg-gradient-to-b from-black to-[#6098ff] text-transparent bg-clip-text">Track Your Emotions. Understand Your Mind.</p>
+            <p className="w-[550px] md:ml-[25%] md:text-left text-center section-title md:text-6xl text-6xl bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text">Track Your Emotions. Understand Your Mind.</p>
             <p className="w-[fit-content] md:ml-[25%] md:text-left text-center section-description mt-2 mb-5 md:text-xl text-sm">Mood Reflect helps you visualize your emotional journey — designed for simplicity, built for clarity.</p>
             <div className="flex gap-4 justify-center items-center">
               <button className="md:ml-[25%] bg-black text-white px-10 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer">
