@@ -18,6 +18,7 @@ export const Hero = () => {
   return (
     <section className="flex flex-col gap-10 items-center justify-center md:flex-row h-full w-full mt-5">
         <div className="left w-[50%] flex flex-col">
+        <div className="tag md:ml-[25%] w-fit text-black text-2xl px-4 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer">Version 1.0</div>
             <p className="w-[100%] md:w-[75%] md:ml-[25%] md:text-left text-center section-title md:text-7xl text-6xl bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text">Track Your Emotions. Understand Your Mind.</p>
             <p className="w-[fit-content] md:ml-[25%] md:text-left text-center section-description mt-2 mb-5 md:text-xl text-sm">Mood Reflect helps you visualize your emotional journey — designed for simplicity, built for clarity.</p>
             <div className="flex gap-4 justify-center items-center">
