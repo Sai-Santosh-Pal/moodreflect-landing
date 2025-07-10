@@ -3,16 +3,16 @@ import Mockup from "@/assets/phone_mockup.png"
 
 export const Product = () => {
   return (
-    <section className="overflow-hidden mt-20 pb-[30px] md:mt-10 flex flex-col gap-10 items-center justify-around w-screen bg-gradient-to-b from-[#f1f1f1] to-[#89dcdf]">
+    <section className="overflow-hidden mt-20 pb-[30px] md:mt-10 flex flex-col gap-10 items-center justify-around w-screen bg-gradient-to-b from-sky-200 to-white">
       <div className="mt-10 h-[50%] flex flex-col items-center justify-center">
-        <p className="mt-10 section-title text-center bg-gradient-to-b from-black to-[#3529e2] text-transparent bg-clip-text w-full">One App. All Mental Health</p>
+        <p className="mt-10 section-title text-center bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text w-full">One App. All Mental Health</p>
         <p className="section-description w-3/4 text-center mt-3">Track your emotions, manage stress, and build healthier habits — all in one place.</p>
       </div>
       <div className="h-1/2 flex gap-20 mt-10 flex-col md:flex-row justify-between">
         <Image 
           alt="Mockup" 
           src={Mockup} 
-          className="md:mt-20 h-[300px] md:h-[400px] w-auto object-contain scale-125 md:scale-150 lg:scale-175 -translate-y-12 md:-translate-y-24 "
+          className="md:mt-20 h-[300px] md:h-[400px] w-auto object-contain scale-125 md:scale-150 lg:scale-175 -translate-y-12 md:mr-[1%] md:-translate-y-24 "
           priority
         />
         {/* mt-[-30px] md:mt-[-100px] */}
