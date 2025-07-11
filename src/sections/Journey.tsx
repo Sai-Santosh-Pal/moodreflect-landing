@@ -46,11 +46,6 @@ export const Journey = () => {
             <div className="box-content-description text-center">
               <p className="box-content-description-text text-gray-700">{step.description}</p>
             </div>
-            {idx === journeySteps.length - 1 && (
-              <div className="box-content-image mt-4">
-                <Image src={JourneyImage} alt="Journey" className="w-full h-40 object-cover rounded" />
-              </div>
-            )}
           </div>
         ))}
       </div>
