@@ -23,11 +23,6 @@ const testimonials = [
     feedback: "I would like to use this type of apps when I would be frustrated."
   },
   {
-    name: "Anshul Sharma",
-    designation: "Student, Class 10",
-    feedback: "It's free of cost and it calms the user."
-  },
-  {
     name: "Aisha Khan",
     designation: "Student, Class 10",
     feedback: "I would love to use this kind of app which keeps a track of our mood and also help us to improve our mood."

@@ -17,7 +17,7 @@ const journeySteps = [
   {
     year: "2024",
     title: "State Selection",
-    description: "Further into the year, we advanced development and earned selection for the SIL State Round."
+    description: "Further into the year, we advanced development and earned selection for the SIL State Round. We also started enhancing the app."
   },
   {
     year: "2025",
