@@ -1,6 +1,3 @@
-import Image from "next/image";
-import JourneyImage from "@/assets/placeholder.png";
-
 const journeySteps = [
   {
     year: "2023",
