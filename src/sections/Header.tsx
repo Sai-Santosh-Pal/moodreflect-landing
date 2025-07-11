@@ -15,7 +15,7 @@ export const Header = () => {
             <h1 className="bold">Mood Reflect</h1>
           </div>
           <div className='flex item-center justify-between'>
-            <nav className='hidden md:flex gap-6 text-black/60 items-center'>
+            {/* <nav className='hidden md:flex gap-6 text-black/60 items-center'>
               <a href='#'>Idea</a>
               <a href='#'>Journey</a>
               <a href='#'>Product</a>
@@ -24,7 +24,7 @@ export const Header = () => {
                 Contact Us
               </button>
               
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
