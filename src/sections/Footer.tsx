@@ -15,9 +15,6 @@ export const Footer = () => (
           <div className="flex justify-center mt-6">
           </div>
         </div>
-        <a href="https://www.buymeacoffee.com/saisantoshpal" className="mt-5" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=saisantoshpal&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a coffee" />
-        </a>
       </div>
     </div>
   </footer>
