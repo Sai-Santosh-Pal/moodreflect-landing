@@ -6,7 +6,7 @@ export const Journey = () => {
         <section className="flex flex-col items-center justify-center">
             <div className="text-center">
                 <div className="tag justify-center">Journey</div>
-                <p className="section-title mt-5 bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text">Our Journey</p>
+                <p className="section-title mt-5 bg-gradient-to-b from-black to-[#5d6994] text-transparent bg-clip-text">Our Journey</p>
                 <p className="section-descrition font-medium mt-4 wrap mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, perferendis?</p>
             </div>
             <div className="content flex items-center justify-center flex-col p-5 md:flex-row">

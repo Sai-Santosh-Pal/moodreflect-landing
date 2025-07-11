@@ -6,7 +6,7 @@ export const Testimonial = () => {
         <section className="flex flex-col my-10 mx-10 justify-center items-center">
             <div className="text-center">
                 <div className="tag justify-center">Testimonials</div>
-                <p className="section-title mt-5 bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text">What our users say</p>
+                <p className="section-title mt-5 bg-gradient-to-b from-black to-[#5d6994] text-transparent bg-clip-text">What our users say</p>
                 <p className="section-descrition font-medium mt-4 wrap mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, perferendis?</p>
             </div>
             <div className="container flex flex-row justify-center w-screen gap-5">

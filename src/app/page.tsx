@@ -3,7 +3,7 @@ import { Hero } from "@/sections/Hero";
 import { Product } from "@/sections/Product";
 import { Testimonial } from "@/sections/Testimonials";
 import { Journey } from "@/sections/Journey";
-import { Survey } from "@/sections/Survey";
+import { ContactForm } from "@/sections/ContactForm";
 import { Footer } from "@/sections/Footer";
 
 export default function Home() {
@@ -14,7 +14,6 @@ export default function Home() {
     <Product />
     <Journey />
     <Testimonial />
-    <Survey />
     <Footer />
     </>
   );
