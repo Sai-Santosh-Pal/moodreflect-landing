@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Avatar from "@/assets/avatar.png";
-
 const testimonials = [
   {
     name: "Atharv Lal",
@@ -21,11 +18,6 @@ const testimonials = [
     name: "Vivaan Singh",
     designation: "Student, Class 7",
     feedback: "I would like to use this type of apps when I would be frustrated."
-  },
-  {
-    name: "Anshul Sharma",
-    designation: "Student, Class 10",
-    feedback: "It's free of cost and it calms the user."
   },
   {
     name: "Aisha Khan",
@@ -70,7 +62,7 @@ const testimonials = [
 ];
 
 export const Testimonial = () => (
-  <section className="flex flex-col my-10 mx-10 justify-center items-center">
+  <section className="flex flex-col my-10 mx-10 justify-center items-center md:h-[500px]">
     <div className="text-center">
       <div className="tag justify-center">Testimonials</div>
       <p className="section-title mt-5 bg-gradient-to-b from-black to-[#5d6994] text-transparent bg-clip-text">What our users say</p>
@@ -81,7 +73,6 @@ export const Testimonial = () => (
         {testimonials.slice(0, 5).map((t, idx) => (
           <div key={idx} className="card">
             <div className="flex items-center gap-2">
-              <Image src={Avatar} alt="avatar" width={40} height={40} />
               <div className="flex flex-col">
                 <p className="text-lg font-bold">{t.name}</p>
                 <p className="text-sm text-gray-500 mt-[-5px]">{t.designation}</p>
@@ -95,7 +86,6 @@ export const Testimonial = () => (
         {testimonials.slice(5, 9).map((t, idx) => (
           <div key={idx} className="card">
             <div className="flex items-center gap-2">
-              <Image src={Avatar} alt="avatar" width={40} height={40} />
               <div className="flex flex-col">
                 <p className="text-lg font-bold">{t.name}</p>
                 <p className="text-sm text-gray-500 mt-[-5px]">{t.designation}</p>
@@ -109,7 +99,6 @@ export const Testimonial = () => (
         {testimonials.slice(9, 13).map((t, idx) => (
           <div key={idx} className="card">
             <div className="flex items-center gap-2">
-              <Image src={Avatar} alt="avatar" width={40} height={40} />
               <div className="flex flex-col">
                 <p className="text-lg font-bold">{t.name}</p>
                 <p className="text-sm text-gray-500 mt-[-5px]">{t.designation}</p>
