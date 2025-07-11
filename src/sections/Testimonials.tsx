@@ -74,7 +74,7 @@ export const Testimonial = () => (
     <div className="text-center">
       <div className="tag justify-center">Testimonials</div>
       <p className="section-title mt-5 bg-gradient-to-b from-black to-[#5d6994] text-transparent bg-clip-text">What our users say</p>
-      <p className="section-descrition font-medium mt-4 wrap mb-4">Here's what students are saying about Mood Reflect:</p>
+      <p className="section-descrition font-medium mt-4 wrap mb-4">Here&apos;s what students are saying about Mood Reflect:</p>
     </div>
     <div className="container flex flex-row justify-center w-screen gap-5">
       <div className="row flex flex-col gap-5">
