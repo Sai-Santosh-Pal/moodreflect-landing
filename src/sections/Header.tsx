@@ -16,14 +16,15 @@ export const Header = () => {
           </div>
           <div className='flex item-center justify-between'>
             <nav className='hidden md:flex gap-6 text-black/60 items-center'>
-              <a href='#'>Idea</a>
-              <a href='#'>Journey</a>
-              <a href='#'>Product</a>
-              <a href='#'>Reviews</a>
-              <button className='btn-primary'>
-                Contact Us
-              </button>
-              
+              <a href='#idea'>Idea</a>
+              <a href='#journey'>Journey</a>
+              <a href='#product'>Product</a>
+              <a href='#reviews'>Reviews</a>
+              <a href='#contact'>
+                <button className='btn-primary'>
+                  Contact Us
+                </button>
+              </a>
             </nav>
           </div>
         </div>
