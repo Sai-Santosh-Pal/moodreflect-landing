@@ -1,6 +1,3 @@
-import Image from "next/image";
-import JourneyImage from "@/assets/placeholder.png";
-
 const journeySteps = [
   {
     year: "2023",
@@ -20,7 +17,7 @@ const journeySteps = [
   {
     year: "2024",
     title: "State Selection",
-    description: "Further into the year, we advanced development and earned selection for the SIL State Round."
+    description: "Further into the year, we advanced development and earned selection for the SIL State Round. We also started enhancing the app."
   },
   {
     year: "2025",
@@ -46,11 +43,6 @@ export const Journey = () => {
             <div className="box-content-description text-center">
               <p className="box-content-description-text text-gray-700">{step.description}</p>
             </div>
-            {idx === journeySteps.length - 1 && (
-              <div className="box-content-image mt-4">
-                <Image src={JourneyImage} alt="Journey" className="w-full h-40 object-cover rounded" />
-              </div>
-            )}
           </div>
         ))}
       </div>
