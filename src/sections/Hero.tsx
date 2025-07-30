@@ -23,15 +23,11 @@ export const Hero = () => {
             <div className="flex gap-4 justify-center items-center">
               <button 
                 onClick={handleDownload}
-                className="md:ml-[25%] bg-black text-white px-10 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer"
+                className="md:ml-[-25%] bg-black text-white px-10 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer"
               >
                 <Image src={Apk} alt="Android" className="w-4 h-4"/>
                 <span className="whitespace-nowrap">Download Now</span>
               </button>
-              <div className="flex gap-2 items-center w-full">
-                <p className="cursor-pointer whitespace-nowrap">Learn More</p>
-                <Image src={ArrowRight} alt="Arrow Right" className="w-4 h-4"/>
-              </div>
             </div>
         </div>
         <div className="right w-[50%] h-full flex items-center justify-center">
