@@ -3,7 +3,6 @@
 import Image from "next/image";
 import HeroImage from "@/assets/phone_mockup.png"
 import Apk from "@/assets/apk.png"
-import ArrowRight from "@/assets/arrow-right.svg"
 
 export const Hero = () => {
   const handleDownload = () => {
