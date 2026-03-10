@@ -44,7 +44,7 @@ export const ContactForm = () => {
           value={form.name}
           onChange={handleChange}
           required
-          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200"
+          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F5A623]/30"
         />
         <input
           type="email"
@@ -53,7 +53,7 @@ export const ContactForm = () => {
           value={form.email}
           onChange={handleChange}
           required
-          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200"
+          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F5A623]/30"
         />
         <textarea
           name="message"
@@ -62,12 +62,12 @@ export const ContactForm = () => {
           onChange={handleChange}
           required
           rows={5}
-          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200"
+          className="p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F5A623]/30"
         />
         <button
           type="submit"
           disabled={loading}
-          className="bg-[#2A3B8F] text-white font-bold py-3 rounded hover:bg-[#1a265c] transition"
+          className="bg-[#F5A623] text-white font-bold py-3 rounded hover:bg-[#D4911E] transition"
         >
           {loading ? "Sending..." : "Send Message"}
         </button>

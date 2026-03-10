@@ -31,7 +31,7 @@ export const Journey = () => {
     <section className="flex flex-col items-center justify-center">
       <div className="text-center">
         <div className="tag justify-center">Journey</div>
-        <p className="section-title mt-5 bg-gradient-to-b from-black to-[#006b9c] text-transparent bg-clip-text">Our Journey</p>
+        <p className="section-title mt-5 bg-gradient-to-b from-black to-[#8B6914] text-transparent bg-clip-text">Our Journey</p>
       </div>
       <div className="content flex items-center justify-center flex-col p-5 md:flex-row gap-4 mt-8">
         {journeySteps.map((step, idx) => (

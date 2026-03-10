@@ -1,28 +1,22 @@
 "use client"
 
 import Image from "next/image";
-import HeroImage from "@/assets/phone_mockup.png"
 import Apk from "@/assets/apk.png"
 
 export const Hero = () => {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = 'https://github.com/Sai-Santosh-Pal/moodreflect-landing/releases/download/v1/moodreflect.apk';
-    link.download = 'https://github.com/Sai-Santosh-Pal/moodreflect-landing/releases/download/v1/moodreflect.apk';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open('https://github.com/sai-santosh-pal/moodreflect-landing/releases/download/v1/moodreflect.apk', '_blank');
   };
 
   return (
     <section className="flex flex-col gap-10 items-center justify-center md:flex-row h-full w-full mt-5">
         <div className="left w-[50%] flex flex-col">
-            <p className="w-[100%] md:w-[75%] md:ml-[25%] md:text-left text-center section-title md:text-7xl text-6xl bg-gradient-to-b from-black to-[#5d6994] text-transparent bg-clip-text">Track Your Emotions. Understand Your Mind.</p>
+            <p className="w-[100%] md:w-[75%] md:ml-[25%] md:text-left text-center section-title md:text-7xl text-6xl bg-gradient-to-b from-black to-[#8B6914] text-transparent bg-clip-text">Track Your Emotions. Understand Your Mind.</p>
             <p className="w-[fit-content] md:ml-[25%] md:text-left text-center section-description mt-2 mb-5 md:text-xl text-sm">Mood Reflect helps you visualize your emotional journey — designed for simplicity, built for clarity.</p>
             <div className="flex gap-4 justify-center items-center">
               <button 
                 onClick={handleDownload}
-                className="md:ml-[-25%] bg-black text-white px-10 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer"
+                className="md:ml-[-25%] bg-[#F5A623] text-white px-10 py-2 rounded-md flex items-center justify-between gap-2 cursor-pointer hover:bg-[#D4911E] transition"
               >
                 <Image src={Apk} alt="Android" className="w-4 h-4"/>
                 <span className="whitespace-nowrap">Download Now</span>
@@ -30,7 +24,7 @@ export const Hero = () => {
             </div>
         </div>
         <div className="right w-[50%] h-full flex items-center justify-center">
-            <Image alt="Hero" src={HeroImage} className="h-full max-h-screen w-auto md:scale-125 md:mt-0 mt-10 scale-200"/>
+            <Image alt="Hero" src="/logo.jpeg" width={500} height={500} className="h-full max-h-[500px] w-auto md:scale-110 md:mt-0 mt-10 rounded-3xl"/>
         </div>
     </section>
   );

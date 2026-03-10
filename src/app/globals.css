@@ -23,7 +23,7 @@
 } */
 
 *::selection {
-  background: #111111;
+  background: #F5A623;
   color: #ffffff;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .btn-primary{
-  @apply bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tighter cursor-pointer;
+  @apply bg-[#F5A623] text-white px-4 py-2 rounded-lg font-medium inline-flex justify-center tracking-tighter cursor-pointer;
 }
 
 .tag{
