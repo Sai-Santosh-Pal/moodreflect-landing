@@ -7,8 +7,8 @@ import Apk from "@/assets/apk.png"
 export const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/moodreflect.apk';
-    link.download = 'moodreflect.apk';
+    link.href = 'https://github.com/Sai-Santosh-Pal/moodreflect-landing/releases/download/v1/moodreflect.apk';
+    link.download = 'https://github.com/Sai-Santosh-Pal/moodreflect-landing/releases/download/v1/moodreflect.apk;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
