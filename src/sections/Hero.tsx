@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import Apk from "@/assets/apk.png"
+import Apk from "@/assets/apk.png";
 
 export const Hero = () => {
   const handleDownload = () => {
@@ -24,7 +24,15 @@ export const Hero = () => {
             </div>
         </div>
         <div className="right w-[50%] h-full flex items-center justify-center">
-            <Image alt="Hero" src="/logo.jpeg" width={500} height={500} className="h-full max-h-[500px] w-auto md:scale-110 md:mt-0 mt-10 rounded-3xl"/>
+            <iframe
+              width="315"
+              height="560"
+              src="https://www.youtube.com/embed/YNYATKidKL8"
+              title="Mood Reflect Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="rounded-3xl md:scale-110 md:mt-0 mt-10"
+            />
         </div>
     </section>
   );

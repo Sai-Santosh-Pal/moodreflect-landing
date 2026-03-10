@@ -6,14 +6,12 @@ export const Product = () => {
         <p className="section-description w-3/4 text-center mt-3">Track your emotions, manage stress, and build healthier habits — all in one place.</p>
       </div>
       <div className="h-1/2 flex gap-20 mt-10 flex-col md:flex-row justify-between">
-        <iframe
-          width="315"
-          height="560"
-          src="https://www.youtube.com/embed/YNYATKidKL8"
-          title="Mood Reflect Demo"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="md:mt-20 rounded-3xl"
+        <img
+          src="/logo.jpeg"
+          alt="Mood Reflect Logo"
+          width={315}
+          height={315}
+          className="md:mt-20 rounded-3xl ml-10"
         />
         <div className="right md:ml-[-100px] md:mt-0 mt-[-40px] md:block flex flex-col justify-center items-center">
           <div className="mt-5">

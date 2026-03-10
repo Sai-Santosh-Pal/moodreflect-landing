@@ -5,7 +5,6 @@ export const Header = () => {
     <>
     <header className='sticky top-0 backdrop-blur-sm z-20'>
       <div className="flex justify-center items-center py-3 md:bg-[#F5A623] text-white text-sm gap-3">
-        <p className='text-white/80 hidden md:block'>This Project Has Been Selected For The <i><a href="https://www.stemrobo.com/steam-innovation-league/" className="cursor-pointer">Steam Innovation League National Level Round 2025</a></i></p>
       </div>
       <div className='py-5 md:w-full  flex justify-center items-center'>
         <div className='container sm:mx-20 flex items-center justify-between'>
