@@ -3,7 +3,6 @@ import { Hero } from "@/sections/Hero";
 import { Stats } from "@/sections/Stats";
 import { Product } from "@/sections/Product";
 import { Testimonial } from "@/sections/Testimonials";
-import { Journey } from "@/sections/Journey";
 import { Footer } from "@/sections/Footer";
 import Script from 'next/script';
 
@@ -19,9 +18,6 @@ export default function Home() {
     <Stats />
     <div id="product">
       <Product />
-    </div>
-    <div id="journey">
-      <Journey />
     </div>
     <div id="reviews">
       <Testimonial />

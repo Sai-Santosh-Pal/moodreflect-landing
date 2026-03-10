@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export const Product = () => {
   return (
     <section className="overflow-hidden mt-20 pb-[30px] md:mt-10 flex flex-col gap-10 items-center justify-around w-screen bg-gradient-to-b from-[#FFF3D6] to-white">
@@ -8,13 +6,14 @@ export const Product = () => {
         <p className="section-description w-3/4 text-center mt-3">Track your emotions, manage stress, and build healthier habits — all in one place.</p>
       </div>
       <div className="h-1/2 flex gap-20 mt-10 flex-col md:flex-row justify-between">
-        <Image
-          alt="Mockup"
-          src="/logo.jpeg"
-          width={400}
-          height={400}
-          className="md:mt-20 h-[300px] md:h-[400px] w-auto object-contain rounded-3xl"
-          priority
+        <iframe
+          width="315"
+          height="560"
+          src="https://www.youtube.com/embed/YNYATKidKL8"
+          title="Mood Reflect Demo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="md:mt-20 rounded-3xl"
         />
         <div className="right md:ml-[-100px] md:mt-0 mt-[-40px] md:block flex flex-col justify-center items-center">
           <div className="mt-5">
