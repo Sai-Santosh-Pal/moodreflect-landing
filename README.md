@@ -1,11 +1,11 @@
-# Mood Reflect 🧠✨  
+# Mood Reflect
 **Your Daily Mental Wellness Companion**
 
 Mood Reflect is a minimal, calming app designed to help you track your emotions, reflect on your thoughts, and build healthier habits—all in one place.
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Daily Journaling**: Log your thoughts and feelings each day.
 - **Mood Tracker**: Choose from various emotions to track your mood trends.
