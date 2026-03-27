@@ -5,7 +5,7 @@ import Apk from "@/assets/apk.png";
 
 export const Hero = () => {
   const handleDownload = () => {
-    window.open('https://github.com/sai-santosh-pal/moodreflect-landing/releases/download/v1/moodreflect.apk', '_blank');
+    window.open('https://github.com/Sai-Santosh-Pal/moodreflect-landing/releases/download/v1/application-9230e6f5-2d17-4f64-af23-5ba66aeaca94.apk', '_blank');
   };
 
   return (
